@@ -151,5 +151,5 @@ Keep right! When there is no car on our car's right side, then change lane to th
 Lane changing when we catch up a car, tf there is a clear lane (to left or right) otherwise slow down.
 
 Possible future improvements: 
-More complex path planing to avoid to stuck behind cars when they driving side by side.
-When I was tested there was one accident, an other car is change lane immediately and causeless, so my car can't stop behind it. It is most desirable to implement emergency brake function.
+* More complex path planing to avoid to stuck behind cars when they driving side by side.
+* When I was tested there was one accident, an other car is change lane immediately and causeless, so my car can't stop behind it. It is most desirable to implement emergency brake function.
