@@ -143,3 +143,13 @@ still be compilable with cmake and make./
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
+## Model Documentation
+I used the base code from Higway Driving Project Q&A lesson. 
+
+Keep right! When there is no car on our car's right side, then change lane to the right as long as we are in the rightest lane
+
+Lane changing when we catch up a car, tf there is a clear lane (to left or right) otherwise slow down.
+
+Possible future improvements: 
+More complex path planing to avoid to stuck behind cars when they driving side by side.
+When I was tested there was one accident, an other car is change lane immediately and causeless, so my car can't stop behind it. It is most desirable to implement emergency brake function.
