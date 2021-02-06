@@ -146,9 +146,13 @@ A well written README file can enhance your project and portfolio.  Develop your
 ## Model Documentation
 I used the base code from Higway Driving Project Q&A lesson. 
 
-Keep right! When there is no car on our car's right side, then change lane to the right as long as we are in the rightest lane
+I check the environment every time step when a measurement arrive from the sensor fusion. I used flags to determine the possibility of the line change. Then I check the actual line where we are. If there is a car in fornt of us, and it is too close from us (30 meters), and we can change line, line change happens. If the line change is impossible (there are cars all of the lines), our car decreased its speed, and will wait to overtake.
 
-Lane changing when we catch up a car, tf there is a clear lane (to left or right) otherwise slow down.
+Line change is possible when there isn't a car in front of us within 30 meters, or behind us within 15 meters. 
+
+If line change happens, i start a counter to avoid the line changes too often.
+
+Keep right! When there is no car on our car's right side, then change lane to the right as long as we are in the rightest lane
 
 Possible future improvements: 
 * More complex path planing to avoid to stuck behind cars when they driving side by side.
