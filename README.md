@@ -144,6 +144,8 @@ still be compilable with cmake and make./
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 ## Model Documentation
+Please check this video from a 5 miles drive: https://1drv.ms/v/s!Au8kat0JurTYlP1OGQt8GEao9-mZ9A?e=6EDJfb
+
 I used the base code from Higway Driving Project Q&A lesson. 
 
 I check the environment every time step when a measurement arrive from the sensor fusion. I used flags to determine the possibility of the line change. Then I check the actual line where we are. If there is a car in fornt of us, and it is too close from us (30 meters), and we can change line, line change happens. If the line change is impossible (there are cars all of the lines), our car decreased its speed, and will wait to overtake.
