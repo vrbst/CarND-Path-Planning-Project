@@ -154,6 +154,8 @@ If line change happens, i start a counter to avoid the line changes too often.
 
 Keep right! When there is no car on our car's right side, then change lane to the right as long as we are in the rightest lane
 
+Trajectory generation: When line change needed, the trajectory of the change will 90 meters long (based on the lesson). There will be 3 waypoints to a smooth and not too sharp change.
+
 Possible future improvements: 
 * More complex path planing to avoid to stuck behind cars when they driving side by side.
 * When I was tested there was one accident, an other car is change lane immediately and causeless, so my car can't stop behind it. It is most desirable to implement emergency brake function.
