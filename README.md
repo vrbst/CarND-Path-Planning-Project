@@ -144,7 +144,7 @@ still be compilable with cmake and make./
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 ## Model Documentation
-Please check this video from a 5 miles drive: https://1drv.ms/v/s!Au8kat0JurTYlP1OGQt8GEao9-mZ9A?e=6EDJfb
+Please check this video of a 5 miles drive: https://1drv.ms/v/s!Au8kat0JurTYlP1OGQt8GEao9-mZ9A?e=6EDJfb
 
 I used the base code from Higway Driving Project Q&A lesson. 
 
